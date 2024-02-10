@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Duck-form</title>
+</head>
+<body>
+    <main>
+    <!-- <img src="images/duck.png" alt="Duck" title="The Duck"> -->
+        <form class="conteiner">
+            <h1>Create your account for Duck-news</h1>
+            <div class="form__name">
+                <label for="name">Full name</label>
+                <input type="text" id="name" placeholder="Enter your name" required autofocus>
+            </div>
+            <div class="form__email">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Enter your Email-adress" required autofocus>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your Password"
+                minlength="8" required autofocus>
+            </div>
+            <div class="form__message">
+                <label for="message-regarding">Message regarding</label>
+                <input type="text" id="message-regarding">
+            </div>
+            <div class="form__message">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="15" rows="5" placeholder="Your Message"></textarea>
+            </div>
+                <button type="submit" class="btn">Create account</button> 
+           
+                
+
+        </form>
+    </main>
+</body>
+</html>
