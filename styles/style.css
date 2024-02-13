@@ -34,12 +34,17 @@ main {
     
 }
 
+label:hover {
+    cursor: pointer;
+}
+
 .form__name, .form__email, .form__message {
     font-size: larger;
     font-weight: bolder;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    
 }
 
 .btn {
@@ -54,5 +59,11 @@ main {
 button:hover {
     background-color: black; 
     color:yellow;  
-    cursor: pointer;
+    cursor:pointer;
 }
+
+input:hover {
+    border-bottom: 4px solid black; 
+    
+}
+
